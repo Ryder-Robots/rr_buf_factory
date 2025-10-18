@@ -17,6 +17,12 @@ namespace rrobot
          */
         virtual void initialize(rclcpp::Node::SharedPtr ctl, RrStateMaintainer state_manager) = 0;
 
+        /**
+         * @fn tear_down
+         * @brief perform any tear down activities.
+         */
+        virtual void tear_down() = 0;
+
       protected:
         RrBufFactory() {}
         ~RrBufFactory() = default;
