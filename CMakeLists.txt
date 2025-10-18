@@ -39,11 +39,6 @@ install(DIRECTORY include/
   DESTINATION include/${PROJECT_NAME}
 )
 
-# Export old-style CMake variables
-ament_export_include_directories(
-  include
-)
-
 if(BUILD_TESTING)
   add_subdirectory(test)
   # find_package(ament_cmake_gtest REQUIRED)
