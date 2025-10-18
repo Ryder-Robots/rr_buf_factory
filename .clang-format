@@ -36,10 +36,10 @@ CompactNamespaces: false
 ContinuationIndentWidth: 2
 IndentCaseLabels: false
 IndentPPDirectives: None
-IndentWidth: 2
+IndentWidth: 4
 KeepEmptyLinesAtTheStartOfBlocks: false
 MaxEmptyLinesToKeep: 2
-NamespaceIndentation: None
+NamespaceIndentation: All
 PointerAlignment: Right
 ReflowComments: false
 SpaceAfterCStyleCast: false
@@ -59,3 +59,4 @@ SpacesInParentheses: false
 SpacesInSquareBrackets: false
 TabWidth: 2
 UseTab: Never
+AlignTrailingComments: true
